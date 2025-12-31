@@ -1,0 +1,131 @@
+name: customer
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  #Firebase
+  cloud_firestore: ^6.1.0
+  firebase_auth: ^6.1.2
+  firebase_core: ^4.2.1
+  firebase_messaging: ^16.0.4
+  firebase_storage: ^13.0.4
+  flutter_local_notifications: ^19.5.0
+
+  #common
+  get: ^4.7.2
+  country_code_picker: ^3.4.1
+  provider: ^6.1.5+1
+  shared_preferences: ^2.5.3
+  image_picker: ^1.2.1
+  cached_network_image: ^3.4.1
+  flutter_easyloading: ^3.0.5
+  flutter_rating_bar: ^4.0.1
+  intl: ^0.20.2
+  googleapis_auth: ^2.0.0
+  nb_utils: ^7.1.8
+  flutter_otp_text_field: ^1.5.1+1
+  flutter_image_compress: ^2.4.0
+  flutter_screenutil: ^5.9.3
+  webview_flutter: ^4.13.0
+  flutter_dash: ^1.0.0
+  timelines_plus: ^1.0.8
+  coupon_uikit: ^0.2.1
+  sqflite: ^2.4.2
+  http_auth: ^1.0.4
+  flutter_slidable: ^4.0.3
+  flutter_widget_from_html: ^0.17.1
+  excel: ^4.0.6
+  path_provider: ^2.1.5
+  open_file: ^3.5.10
+  syncfusion_flutter_datepicker: ^31.2.12
+  shimmer: ^3.0.0
+  dio: ^5.9.0
+  share_plus:
+
+  flutter_svg: ^2.2.2
+  #login
+  google_sign_in: ^7.2.0
+  sign_in_with_apple: ^7.0.1
+  crypto: ^3.0.7
+
+  #location
+  geocoding: ^4.0.0
+  google_maps_flutter: ^2.14.0
+  flutter_polyline_points: ^3.1.0
+  geolocator: ^14.0.2
+  flutter_google_maps_webservices: ^1.1.1
+  tuple: ^2.0.2
+
+  #payment_dependencies
+  flutter_stripe: ^12.1.1
+  razorpay_flutter: ^1.4.0
+  mercadopago_sdk: ^1.3.0
+  url_launcher: ^6.3.2
+  mailer: ^6.6.0
+
+dependency_overrides:
+  http: ^1.6.0
+  google_api_headers: ^5.0.1
+  package_info_plus: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/animation/
+    - assets/icons/
+
+  fonts:
+    - family: Satoshi-Black
+      fonts:
+        - asset: assets/fonts/Satoshi-Black.otf
+
+    - family: Satoshi-BlackItalic
+      fonts:
+        - asset: assets/fonts/Satoshi-BlackItalic.otf
+
+    - family: Satoshi-Bold
+      fonts:
+        - asset: assets/fonts/Satoshi-Bold.otf
+
+    - family: Satoshi-BoldItalic
+      fonts:
+        - asset: assets/fonts/Satoshi-BoldItalic.otf
+
+    - family: Satoshi-Italic
+      fonts:
+        - asset: assets/fonts/Satoshi-Italic.otf
+
+    - family: Satoshi-Light
+      fonts:
+        - asset: assets/fonts/Satoshi-Light.otf
+
+    - family: Satoshi-LightItalic
+      fonts:
+        - asset: assets/fonts/Satoshi-LightItalic.otf
+
+    - family: Satoshi-Medium
+      fonts:
+        - asset: assets/fonts/Satoshi-Medium.otf
+
+    - family: Satoshi-MediumItalic
+      fonts:
+        - asset: assets/fonts/Satoshi-MediumItalic.otf
+
+    - family: Satoshi-Regular
+      fonts:
+        - asset: assets/fonts/Satoshi-Regular.otf

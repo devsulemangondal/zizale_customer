@@ -1,0 +1,2 @@
+C:/Users/vasvi/Documents/GitHub/Go4Food/customer/android/app/.cxx/RelWithDebInfo/5w102j66/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/vasvi/Documents/GitHub/Go4Food/customer/android/app/.cxx/RelWithDebInfo/5w102j66/x86_64/CMakeFiles/rebuild_cache.dir
